@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url(shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+}
+
+.home {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 317px;
+    cursor: pointer;
+}
+
+.region {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 213px;
+    cursor: pointer;
+}
+
+.about {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 125px;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    position: relative;
+} 
+
+.flex-head {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.flex1 {
+    background-image: url(pic-1.png);
+    background-size: cover;
+    width:250px;
+    height:250px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top:112px;
+    right:419px;
+    transition: child1 20s ease-in-out;
+}
+
+.flex2 {
+    background-image: url(pic-2.png);
+    background-size: cover;
+    width:250px;
+    height:250px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top:112px;
+    right:80px;
+    transition: child1 20s ease-in-out;
+}
+
+.flex3 {
+    background-image: url(pic-3.png);
+    background-size: cover;
+    width:250px;
+    height:250px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top:400px;
+    right:419px;
+    transition: child1 20s ease-in-out;
+}
+
+.flex4 {
+    background-image: url(pic-4.png);
+    background-size: cover;
+    width:250px;
+    height:250px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top:400px;
+    right:80px;
+    transition: child1 20s ease-in-out;
+}
+
+.flex1:hover, .flex2:hover, .flex3:hover, .flex4:hover {
+    transform: translateY(-10px);
+}
+
+.sahara {
+    font-size: 5.3rem;
+    position: absolute;
+    bottom: 358px;
+    left: 129px;
+    color: white;
+    font-weight: bold;
+}
+
+.s-text {
+    position: absolute;
+    bottom: 302px;
+    left: 129px;
+    color: white;
+}
+
+.explore {
+    display: inline;
+    background-color: royalblue;
+    color: antiquewhite;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 227px;
+    left: 172px;
+    font-size: 20px;
+    width: 167px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 110px;
+    width: 154px;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    color: white;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.bars {
+    position:absolute ;
+    top: 16px;
+    right: 70px;
+    color: white;
+}
+
+.circle {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid ;
+    position: absolute;
+    top: 10px;
+    right: 64px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .wrapper {
+        height: 220vh;
+    }
+
+    .sahara {
+        font-size: 2.8rem;
+        position: absolute;
+        top: 107px;
+        left: 75px;
+    }
+    
+    .s-text {
+        font-size: 1.1rem;
+        position: absolute;
+        top: 160px;
+        left: 78px;
+    }
+    
+    .explore {
+        position: absolute;
+        top: 263px;
+        left: 72px;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 5px;
+        left: 80px;
+    }
+    
+    .flex1 {
+        width:500px;
+        height:260px;
+        position: absolute;
+        top: 350px;
+        right: 120px;
+    }
+    
+    .flex2 {
+        width:500px;
+        height:260px;
+        position: absolute;
+        top: 650px;
+        right: 120px;
+    }
+    
+    .flex3 {
+        width:500px;
+        height:260px;
+        position: absolute;
+        top: 950px;
+        right: 120px;
+    }
+    
+    .flex4 {
+        width:500px;
+        height:260px;
+        position: absolute;
+        top: 1250px;
+        right: 120px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .wrapper {
+        height: 250vh;
+    }
+
+    .home {
+        position: absolute;
+        top: 5px;
+        right: 50px;
+    }
+
+    .region {
+        position: absolute;
+        top: 35px;
+        right: 70px;
+    }
+    
+    .about {
+        position: absolute;
+        top: 55px;
+        right: 70px;
+    }
+
+    .sahara {
+        position: absolute;
+        left: 30px;
+    }
+    
+    .s-text {
+        font-size: 0.9rem;
+        position: absolute;
+        left: 30px;
+    }
+
+    .explore {
+        position: absolute;
+        left: 100px;
+    }
+    
+    .logo {
+        position: absolute;
+        left: 30px;
+    }
+
+    .bars {
+        position:absolute ;
+        top: 30px;
+        right: 30px;
+    }
+    
+    .circle {
+        position: absolute;
+        top: 25px;
+        right: 24px;
+    }
+
+    .flex1 {
+        width:250px;
+        height:250px;
+        position: absolute;
+        top: 350px;
+        right: 45px;
+    }
+    
+    .flex2 {
+        width:250px;
+        height:250px;
+        position: absolute;
+        top: 650px;
+        right: 45px;
+    }
+    
+    .flex3 {
+        width:250px;
+        height:250px;
+        position: absolute;
+        top: 950px;
+        right: 45px;
+    }
+    
+    .flex4 {
+        width:250px;
+        height:250px;
+        position: absolute;
+        top: 1250px;
+        right: 45px;
+    }
+}
